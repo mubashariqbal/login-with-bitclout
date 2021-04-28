@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Login with BitClout</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="login.js"></script>
+</head>
+<body>
+    <iframe id="identity" frameborder="0" class="" src="https://identity.bitclout.com/embed?v=2" style="display: none;"></iframe>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+        <p>
+            A very rough, ie DO NOT USE in production implementation of Login with BitClout.
+        </p>
+
+        <div class="mt-6">
+            <button onClick="login();" id="login" type="button" class="inline-flex items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Login with BitClout
+            </button>        
+            
+            <div class="mt-6" id="loggedin">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
