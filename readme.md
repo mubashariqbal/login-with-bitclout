@@ -13,4 +13,4 @@ The code currently updates the page with public key of the logged in user, but t
 
 Feel free to reach out on with any questions: [@mubashariqbal](https://bitclout.com/u/mubashariqbal)
 
-Disclaimer: I'm not primarily a frontend engineer, I'm sure this code could be much improved!
+Disclaimer: I'm not a frontend engineer (full stack FTW), I'm sure this code could be much improved!
