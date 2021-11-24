@@ -1,5 +1,5 @@
 function login() {
-    identityWindow = window.open('https://identity.bitclout.com/log-in', null, 'toolbar=no, width=800, height=1000, top=0, left=0');    
+    identityWindow = window.open('https://identity.deso.org/log-in', null, 'toolbar=no, width=800, height=1000, top=0, left=0');    
 }
 
 function handleInit(e) {
